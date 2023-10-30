@@ -1,0 +1,73 @@
+html {
+    font: 320 2ch/1.2 'Segoe UI';
+  }
+  
+  legend {
+    font-size: 1.9rem;
+    line-height: 1.10;
+    
+  }
+  
+  input,
+  button {
+    font: inherit;
+    background-color:rgb(168, 190, 190)
+
+  }
+  input{
+    font-size: large;
+    font-style: italic;
+    
+  }
+  
+  button {
+    margin: 0 2px;
+    cursor: pointer;
+
+    }
+    li {
+    height: 2.6rem;
+    
+     }
+  
+  li::marker {
+    font-size: 1.4rem;
+    line-height: 2
+    
+     }
+  
+  li * {
+    display: inline-block;
+    vertical-align: baseline;
+    text-align: center;
+    background-color:rgb(217, 118, 174)
+  }
+  
+  li p {
+    padding: 2px 6px 3.5px;
+    border-radius: 1px;
+    background-color:rgb(163, 237, 237)
+    
+  }
+  
+  [contenteditable] {
+    background: rgba(119, 15, 204, 0.771);
+    color: rgb(15, 1, 1);
+    }
+  
+    
+     div{
+        width: 300px;
+        border:4px solid gray;
+        padding: 50px;
+        margin: 20px;
+        text-align: center;
+        
+         }
+        
+    
+  
+  .hide {
+    display: none
+  }
+  
